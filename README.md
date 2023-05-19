@@ -1,7 +1,9 @@
 # ARRAYQUESTION
 
 1. SPAN OF ARRAY 
-Scanner p=new Scanner(System.in);
+
+
+       Scanner p=new Scanner(System.in);
          int n=p.nextInt();
          int []arr=new int[n];
          
