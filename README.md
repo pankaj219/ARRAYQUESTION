@@ -34,31 +34,31 @@
      
 2. find the element 
      
-     public static void main(String[] args) 
-     {
+          public static void main(String[] args) 
+          {
      
           Scanner s=new Scanner(System.in);
            int n=s.nextInt();
       
            int[] arr=new int[n];
       
-      for(int i=0;i<arr.length;i++)
-      {
-        arr[i]=s.nextInt();
-      }
+            for(int i=0;i<arr.length;i++)
+            {
+             arr[i]=s.nextInt();
+             }
       
      
-      int match=s.nextInt();
-      int index=-1;
-      for(int i=0;i<arr.length;i++)
-      {
-        if(arr[i]==match)
-        {
-          index=i;
-          break;
-        }
+            int match=s.nextInt();
+            int index=-1;
+           for(int i=0;i<arr.length;i++)
+           {
+            if(arr[i]==match)
+           {
+             index=i;
+             break;
+           }
         
-      }
-      System.out.println(index);
+         }
+            System.out.println(index);
       
   }
