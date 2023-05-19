@@ -34,11 +34,13 @@
      
 2. find the element 
      
-     public static void main(String[] args) {
-      Scanner s=new Scanner(System.in);
-      int n=s.nextInt();
+     public static void main(String[] args) 
+     {
+     
+          Scanner s=new Scanner(System.in);
+           int n=s.nextInt();
       
-      int[] arr=new int[n];
+           int[] arr=new int[n];
       
       for(int i=0;i<arr.length;i++)
       {
