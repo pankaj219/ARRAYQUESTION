@@ -32,8 +32,7 @@
          System.out.println(span);
      }
      
-     
-     2. find the element 
+2. find the element 
      
      public static void main(String[] args) {
       Scanner s=new Scanner(System.in);
