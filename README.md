@@ -196,5 +196,46 @@
       {
         System.out.println(arr[j]);
       }
-    }
+   
+   
+   
+IS PRIME USING ARRAY
+
+
+
+
+       public static void main(String[] args) throws Exception
+    {
+    
+    Scanner s=new Scanner(System.in);
+    int n=s.nextInt();
+    
+  
+     int[]arr=new int[n];
+     for(int i=0;i<arr.length;i++)
+     {
+       arr[i]=s.nextInt();
+     }
+       
+     for(int i=0;i<arr.length;i++)
+     {
+       int count=0;
+       for(int j=1;j<=arr[i];j++)
+       {
+         if(arr[i]%j==0)
+         {
+           count++;
+         }
+       }
+       if(count==2)
+       {
+         System.out.println("Prime no."+arr[i]);
+       }
+       else
+       {
+         System.out.println("not prime :"+arr[i]);
+       }
+     }
   }
+}
+   
