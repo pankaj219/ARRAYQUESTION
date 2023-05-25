@@ -321,3 +321,24 @@ Print the count number from left to right
         div=div/10;
       }
       }
+      
+      
+      
+      
+      
+  REVERSE A NUMBER
+  
+  
+  
+      public static void main(String[] args) {
+      
+      Scanner s =new Scanner(System.in);
+      int n=s.nextInt();
+      
+     while(n!=0)
+     {
+       int q=n%10;
+       System.out.println(q);
+       n=n/10;
+     }
+     }
