@@ -404,3 +404,30 @@ REVERSE AN ARRAY
         System.out.println(rev);
         }
   
+
+
+PRINT ALTERNATE CHARATER OF STRING
+
+
+
+
+        public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+      String str=s.nextLine();
+      
+          char []p=str.toCharArray();
+          
+          StringBuffer br=new StringBuffer();
+          
+          for(int i=0;i<p.length;i++)
+          {
+            if(i%2==0)
+            {
+             br.append(p[i]); 
+            }
+          }
+          String name=br.toString();
+          System.out.println(name);
+      
+      
+           }
