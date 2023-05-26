@@ -375,3 +375,32 @@ REMOVE WHITE SPACES OF STRING
         String noSpaceStr2 = stringBuffer.toString();  
         System.out.println(noSpaceStr2);  
        }
+
+
+
+
+
+REVERSE AN ARRAY
+
+
+
+ 
+ 
+ 
+ 
+       public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+      String str=s.nextLine();
+      
+        char[] strArray = str.toCharArray();  
+        StringBuffer stringBuffer = new StringBuffer();  
+        
+        for(int i=strArray.length-1;i>=0;i--)
+        {
+          stringBuffer.append(strArray[i]);
+        }
+        
+        String rev=stringBuffer.toString();
+        System.out.println(rev);
+        }
+  
