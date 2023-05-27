@@ -431,3 +431,29 @@ PRINT ALTERNATE CHARATER OF STRING
       
       
            }
+
+
+
+JAVA STRING
+
+
+
+
+
+           public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+      String present=s.next();
+      String next=s.next();
+      
+      String con=present.concat(next);
+      char []name=con.toCharArray();
+      
+      StringBuffer p=new StringBuffer();
+      
+      for(int i=name.length-1;i>=0;i--)
+      {
+        p.append(name[i]);
+      }
+      String rev=p.toString();
+      System.out.println(rev);
+      }
