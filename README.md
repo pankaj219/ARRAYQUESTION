@@ -457,3 +457,34 @@ JAVA STRING
       String rev=p.toString();
       System.out.println(rev);
       }
+      
+      
+      
+      
+ FIND CAMEL CASE IN STRING
+ 
+ 
+ 
+ 
+           
+           
+           public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+      String present=s.next();
+      
+      char []name=present.toCharArray();
+      
+      StringBuffer p=new StringBuffer();
+      
+      for(int i=0;i<name.length;i++)
+      {
+        if(Character.isUpperCase(name[i]))
+        {
+           p.append(name[i]);
+        }
+      }  
+      String rev=p.toString();
+      System.out.println(rev);
+      
+    }
+    }
