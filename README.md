@@ -488,3 +488,32 @@ JAVA STRING
       
     }
     }
+    
+    
+    
+    
+    
+ ALL CHARTER OF STRING IS EQUAL OR NOT 
+ 
+ 
+ 
+ 
+ 
+      public static void main(String[] args) {
+      Scanner s =new Scanner(System.in);
+      String str=s.next();
+      char []arr=str.toCharArray();
+      
+      for(int i=0;i<arr.length;i++)
+      {
+        if(arr[i]==arr[i+1])
+        {
+          System.out.println("This string is equal:"+true);
+          break;
+        }
+        else
+        {
+          System.out.println("not equal"+false);
+          break;
+        }
+        }
