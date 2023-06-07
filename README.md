@@ -561,3 +561,29 @@ JAVA STRING
           break;
         }
         }
+        
+        
+        
+        
+FIND REAPTED CHARATER IN STRING
+
+
+
+       public static void main(String[] args) {
+      
+     Scanner s =new Scanner(System.in);
+     String str=s.nextLine();
+      
+    char []strc=str.toCharArray();
+    
+    for(int i=0;i<strc.length;i++)
+    {
+      if(strc[i]==strc[i+1])
+      {
+        System.out.println(strc[i]+" "+"and index is :"+i);
+      }
+      }
+        
+        
+        
+        
