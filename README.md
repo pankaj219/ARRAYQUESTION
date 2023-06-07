@@ -586,4 +586,31 @@ FIND REAPTED CHARATER IN STRING
         
         
         
-        
+
+REPEATED CHARATER 
+
+
+
+     public static void main(String[] args) {
+      
+     Scanner s =new Scanner(System.in);
+     String str=s.nextLine();
+      
+    char []str1=str.toCharArray();
+    StringBuffer strbuf=new StringBuffer();
+     
+     
+     for(int i=0;i<str1.length-1;i++)
+     {
+       for(int j=i+1;j<str1.length;j++)
+       {
+         if(str1[i]==str1[j])
+         {
+           strbuf.append(str1[i]);
+         }
+       }
+     }
+     
+     String ans =strbuf.toString();
+     System.out.println(ans);
+    }
