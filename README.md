@@ -283,7 +283,46 @@ IS PRIME USING ARRAY
   }
 }
    
-   
+
+
+find the second largest element in array
+
+
+
+
+
+        public class Main {
+    public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+      int n=s.nextInt();
+      
+      int []arr=new int[n];
+      for(int i=0;i<arr.length;i++)
+      {
+        arr[i]=s.nextInt();
+      }
+      
+      int first=Integer.MIN_VALUE;
+      int second=Integer.MAX_VALUE;
+      
+      for(int i=2;i<arr.length;i++)
+      {
+       
+        
+        if(arr[i]>first)
+        {
+          second=first;
+          first=arr[i];
+        }
+        else if(arr[i]<first && arr[i]>second)
+        {
+          second=arr[i];
+        }
+      }
+      System.out.println(second);
+  }
+  
+  }
    
    
    
@@ -614,3 +653,5 @@ REPEATED CHARATER
      String ans =strbuf.toString();
      System.out.println(ans);
     }
+
+
